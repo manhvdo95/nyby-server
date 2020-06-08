@@ -1,0 +1,13 @@
+server:
+  port: 9100
+
+amazonProperties:
+  accessKey: access_key
+  secretKey: secret_Key
+  bucketName: buckt_name
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
