@@ -24,7 +24,7 @@ public class NybyPostController {
                 .body(nybyPostService.getNybyPostById(id));
     }
 
-    @GetMapping("/post/{id}")
+    @GetMapping("/post")
     public ResponseEntity<List<NybyPost>> getAllNybyPost() {
         return ResponseEntity
                 .status(HttpStatus.OK)

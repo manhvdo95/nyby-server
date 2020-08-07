@@ -1,11 +1,6 @@
 server:
   port: 9100
 
-amazonProperties:
-  accessKey: access_key
-  secretKey: secret_Key
-  bucketName: buckt_name
-
 spring:
   servlet:
     multipart:
