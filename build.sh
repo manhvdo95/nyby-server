@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 # Create JAR from java application
 mvn clean package
