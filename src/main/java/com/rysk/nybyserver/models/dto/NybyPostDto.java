@@ -1,8 +1,6 @@
 package com.rysk.nybyserver.models.dto;
 
-import lombok.Builder;
-import lombok.Data;
-import lombok.EqualsAndHashCode;
+import lombok.*;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
@@ -11,6 +9,8 @@ import java.time.LocalDateTime;
 @Entity
 @Table(name = "nyby_post")
 @Builder
+@AllArgsConstructor
+@NoArgsConstructor
 @EqualsAndHashCode
 public class NybyPostDto {
 
