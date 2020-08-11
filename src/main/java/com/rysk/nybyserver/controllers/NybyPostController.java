@@ -24,7 +24,7 @@ public class NybyPostController {
         String test2 = test1.replace(" ", "").split("-")[0];
 
         log.info("test2: {}", test2);
-        log.info("SECOND COMMMIT: {}");
+        log.info("Thrid COMMMIT: {}");
 //
 //        NybyPost realNybyPost = NybyPost.builder()
 //                .username("REAL USERNAME")
